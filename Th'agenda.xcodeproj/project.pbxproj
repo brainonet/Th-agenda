@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		345505EA204B00A7001520F6 /* c_2000 x 2000.png in Resources */ = {isa = PBXBuildFile; fileRef = 345505E7204B00A7001520F6 /* c_2000 x 2000.png */; };
+		345505EB204B00A7001520F6 /* 1000x1000.png in Resources */ = {isa = PBXBuildFile; fileRef = 345505E8204B00A7001520F6 /* 1000x1000.png */; };
+		345505EC204B00A7001520F6 /* 200x200.png in Resources */ = {isa = PBXBuildFile; fileRef = 345505E9204B00A7001520F6 /* 200x200.png */; };
 		89515CA62037607600B78076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89515CA52037607600B78076 /* AppDelegate.swift */; };
 		89515CAB2037607600B78076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89515CA92037607600B78076 /* Main.storyboard */; };
 		89515CAD2037607600B78076 /* 200x200.png in Resources */ = {isa = PBXBuildFile; fileRef = 89515CAC2037607600B78076 /* 200x200.png */; };
@@ -94,6 +97,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		345505E7204B00A7001520F6 /* c_2000 x 2000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c_2000 x 2000.png"; sourceTree = "<group>"; };
+		345505E8204B00A7001520F6 /* 1000x1000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1000x1000.png; sourceTree = "<group>"; };
+		345505E9204B00A7001520F6 /* 200x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 200x200.png; sourceTree = "<group>"; };
 		89515CA22037607600B78076 /* agenda_SQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = agenda_SQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89515CA52037607600B78076 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89515CAA2037607600B78076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -146,9 +152,12 @@
 				89515CD82037626C00B78076 /* corViewController.swift */,
 				89515CA92037607600B78076 /* Main.storyboard */,
 				89515CAC2037607600B78076 /* 200x200.png */,
+				345505E8204B00A7001520F6 /* 1000x1000.png */,
+				345505E7204B00A7001520F6 /* c_2000 x 2000.png */,
 				89515CA52037607600B78076 /* AppDelegate.swift */,
 				89515CAE2037607600B78076 /* LaunchScreen.storyboard */,
 				89515CB12037607600B78076 /* Info.plist */,
+				345505E9204B00A7001520F6 /* 200x200.png */,
 			);
 			path = agenda_SQLite;
 			sourceTree = "<group>";
@@ -296,6 +305,9 @@
 			files = (
 				89515CB02037607600B78076 /* LaunchScreen.storyboard in Resources */,
 				89515CAD2037607600B78076 /* 200x200.png in Resources */,
+				345505EC204B00A7001520F6 /* 200x200.png in Resources */,
+				345505EA204B00A7001520F6 /* c_2000 x 2000.png in Resources */,
+				345505EB204B00A7001520F6 /* 1000x1000.png in Resources */,
 				89515CAB2037607600B78076 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
