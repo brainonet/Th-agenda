@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Th-agenda
+//  agenda_SQLite
 //
-//  Created by Mauro Silva on 21/02/2018.
-//  Copyright © 2018 Brains On Networks. All rights reserved.
+//  Created by Mauro Silva on 01/03/2018.
+//  Copyright © 2018 Brains On Netwroks. All rights reserved.
 //
 
 import UIKit

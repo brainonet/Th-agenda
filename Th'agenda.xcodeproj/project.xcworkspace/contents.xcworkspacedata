@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:agenda_SQLite.xcodeproj">
+      location = "self:/Users/mauro/Documents/GitHub/Th-agenda/Th&apos;agenda.xcodeproj">
    </FileRef>
 </Workspace>

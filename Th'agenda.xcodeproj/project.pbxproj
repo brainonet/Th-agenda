@@ -13,6 +13,7 @@
 		89515CB02037607600B78076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89515CAE2037607600B78076 /* LaunchScreen.storyboard */; };
 		89515CD72037618C00B78076 /* listaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89515CD62037618C00B78076 /* listaTableViewController.swift */; };
 		89515CD92037626C00B78076 /* corViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89515CD82037626C00B78076 /* corViewController.swift */; };
+		89515CFA2037662300B78076 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89515CED203765FB00B78076 /* SQLite.framework */; };
 		89515CFB2037663C00B78076 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89515CED203765FB00B78076 /* SQLite.framework */; };
 		89515CFC2037663C00B78076 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 89515CED203765FB00B78076 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8953D37A2038B4E7000B99EB /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8953D3792038B4E7000B99EB /* infoViewController.swift */; };
@@ -93,7 +94,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		89515CA22037607600B78076 /* Th-agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Th-agenda.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89515CA22037607600B78076 /* agenda_SQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = agenda_SQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89515CA52037607600B78076 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89515CAA2037607600B78076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89515CAC2037607600B78076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,6 +113,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89515CFB2037663C00B78076 /* SQLite.framework in Frameworks */,
+				89515CFA2037662300B78076 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +132,7 @@
 		89515CA32037607600B78076 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89515CA22037607600B78076 /* Th-agenda.app */,
+				89515CA22037607600B78076 /* agenda_SQLite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,9 +178,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89515CA12037607600B78076 /* Th-agenda */ = {
+		89515CA12037607600B78076 /* agenda_SQLite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89515CB42037607600B78076 /* Build configuration list for PBXNativeTarget "Th-agenda" */;
+			buildConfigurationList = 89515CB42037607600B78076 /* Build configuration list for PBXNativeTarget "agenda_SQLite" */;
 			buildPhases = (
 				89515C9E2037607600B78076 /* Sources */,
 				89515C9F2037607600B78076 /* Frameworks */,
@@ -190,9 +192,9 @@
 			dependencies = (
 				89515CFE2037663C00B78076 /* PBXTargetDependency */,
 			);
-			name = "Th-agenda";
+			name = agenda_SQLite;
 			productName = agenda_SQLite;
-			productReference = 89515CA22037607600B78076 /* Th-agenda.app */;
+			productReference = 89515CA22037607600B78076 /* agenda_SQLite.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -202,8 +204,8 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = "Rafael Pereira";
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Brains On Networks";
 				TargetAttributes = {
 					89515CA12037607600B78076 = {
 						CreatedOnToolsVersion = 9.0;
@@ -211,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89515C9D2037607600B78076 /* Build configuration list for PBXProject "agenda_SQLite" */;
+			buildConfigurationList = 89515C9D2037607600B78076 /* Build configuration list for PBXProject "Th'agenda" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -230,7 +232,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				89515CA12037607600B78076 /* Th-agenda */,
+				89515CA12037607600B78076 /* agenda_SQLite */,
 			);
 		};
 /* End PBXProject section */
@@ -458,9 +460,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A5G32P674F;
 				INFOPLIST_FILE = agenda_SQLite/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = BON.thangeda;
+				PRODUCT_BUNDLE_IDENTIFIER = "mauro.agenda-SQLite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,9 +476,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A5G32P674F;
 				INFOPLIST_FILE = agenda_SQLite/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = BON.thangeda;
+				PRODUCT_BUNDLE_IDENTIFIER = "mauro.agenda-SQLite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,7 +487,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89515C9D2037607600B78076 /* Build configuration list for PBXProject "agenda_SQLite" */ = {
+		89515C9D2037607600B78076 /* Build configuration list for PBXProject "Th'agenda" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89515CB22037607600B78076 /* Debug */,
@@ -496,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89515CB42037607600B78076 /* Build configuration list for PBXNativeTarget "Th-agenda" */ = {
+		89515CB42037607600B78076 /* Build configuration list for PBXNativeTarget "agenda_SQLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89515CB52037607600B78076 /* Debug */,
