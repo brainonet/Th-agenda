@@ -9,14 +9,12 @@
 /* Begin PBXBuildFile section */
 		345505EA204B00A7001520F6 /* c_2000 x 2000.png in Resources */ = {isa = PBXBuildFile; fileRef = 345505E7204B00A7001520F6 /* c_2000 x 2000.png */; };
 		345505EB204B00A7001520F6 /* 1000x1000.png in Resources */ = {isa = PBXBuildFile; fileRef = 345505E8204B00A7001520F6 /* 1000x1000.png */; };
-		345505EC204B00A7001520F6 /* 200x200.png in Resources */ = {isa = PBXBuildFile; fileRef = 345505E9204B00A7001520F6 /* 200x200.png */; };
 		89515CA62037607600B78076 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89515CA52037607600B78076 /* AppDelegate.swift */; };
 		89515CAB2037607600B78076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89515CA92037607600B78076 /* Main.storyboard */; };
 		89515CAD2037607600B78076 /* 200x200.png in Resources */ = {isa = PBXBuildFile; fileRef = 89515CAC2037607600B78076 /* 200x200.png */; };
 		89515CB02037607600B78076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89515CAE2037607600B78076 /* LaunchScreen.storyboard */; };
 		89515CD72037618C00B78076 /* listaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89515CD62037618C00B78076 /* listaTableViewController.swift */; };
 		89515CD92037626C00B78076 /* corViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89515CD82037626C00B78076 /* corViewController.swift */; };
-		89515CFA2037662300B78076 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89515CED203765FB00B78076 /* SQLite.framework */; };
 		89515CFB2037663C00B78076 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89515CED203765FB00B78076 /* SQLite.framework */; };
 		89515CFC2037663C00B78076 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 89515CED203765FB00B78076 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8953D37A2038B4E7000B99EB /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8953D3792038B4E7000B99EB /* infoViewController.swift */; };
@@ -119,7 +117,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				89515CFB2037663C00B78076 /* SQLite.framework in Frameworks */,
-				89515CFA2037662300B78076 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,10 +148,10 @@
 				8953D37B2038BA74000B99EB /* editarViewController.swift */,
 				89515CD82037626C00B78076 /* corViewController.swift */,
 				89515CA92037607600B78076 /* Main.storyboard */,
-				89515CAC2037607600B78076 /* 200x200.png */,
-				345505E8204B00A7001520F6 /* 1000x1000.png */,
-				345505E7204B00A7001520F6 /* c_2000 x 2000.png */,
 				89515CA52037607600B78076 /* AppDelegate.swift */,
+				345505E7204B00A7001520F6 /* c_2000 x 2000.png */,
+				345505E8204B00A7001520F6 /* 1000x1000.png */,
+				345505E9204B00A7001520F6 /* 200x200.png */,
 				89515CAE2037607600B78076 /* LaunchScreen.storyboard */,
 				89515CB12037607600B78076 /* Info.plist */,
 				345505E9204B00A7001520F6 /* 200x200.png */,
@@ -213,7 +210,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Brains On Networks";
 				TargetAttributes = {
 					89515CA12037607600B78076 = {
@@ -305,7 +302,6 @@
 			files = (
 				89515CB02037607600B78076 /* LaunchScreen.storyboard in Resources */,
 				89515CAD2037607600B78076 /* 200x200.png in Resources */,
-				345505EC204B00A7001520F6 /* 200x200.png in Resources */,
 				345505EA204B00A7001520F6 /* c_2000 x 2000.png in Resources */,
 				345505EB204B00A7001520F6 /* 1000x1000.png in Resources */,
 				89515CAB2037607600B78076 /* Main.storyboard in Resources */,

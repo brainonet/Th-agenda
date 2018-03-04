@@ -20,12 +20,19 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="200x200.png" translatesAutoresizingMaskIntoConstraints="NO" id="iLa-VU-kIr">
                                 <rect key="frame" x="63" y="58" width="248" height="248"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="/Users/mauro/Documents/GitHub/Th-agenda/agenda_SQLite/c_2000 x 2000.png" translatesAutoresizingMaskIntoConstraints="NO" id="fyg-rx-Aex">
-                                <rect key="frame" x="67" y="519" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c_2000 x 2000.png" translatesAutoresizingMaskIntoConstraints="NO" id="L5g-VG-vRC">
+                                <rect key="frame" x="141" y="554" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Developed by:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAJ-hx-EeA">
+                                <rect key="frame" x="131" y="525" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -37,7 +44,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="/Users/mauro/Documents/GitHub/Th-agenda/agenda_SQLite/c_2000 x 2000.png" width="16" height="16"/>
         <image name="200x200.png" width="793" height="793"/>
+        <image name="c_2000 x 2000.png" width="1998" height="1998"/>
     </resources>
 </document>
